@@ -1,0 +1,43 @@
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rem;
+    color: #fff;
+    gap: 50px;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.container .content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .content .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 100px;    
+    background-color: #173b6d;
+    border-radius: 20px;
+}
+
+.container .infO{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+}
+
+.infO p{
+    width: 45rem;
+    text-align: justify;
+    line-height: 20px;
+    font-weight: 300;
+}
