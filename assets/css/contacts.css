@@ -73,8 +73,10 @@ form #frmm{
     padding: 15px 30px;
     border-radius: 5px;
     background-color: #0f8be4;
+    color: #0d1f39;
     border: 0;
     font-size: 14px;    
+    font-weight: 600;
     cursor: pointer;
     text-decoration: none;
     margin-top: 2rem;
@@ -102,6 +104,18 @@ form #frmm{
     }
 
     .contact .contactBoxes .boxes form #frm, #frmm{
-        width: 250px;
+        /* width: 250px; */
     }
+
+    .contactBoxes .boxes .box{
+        padding: 30px 45px;
+        border-radius: 20px;
+    }
+
+    form{
+        background-color: #173b6d;
+        padding: 30px 55px;
+        border-radius: 20px;
+    }
+
 }

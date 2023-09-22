@@ -3,20 +3,19 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    transition: all, .2s linear;
+    transition: all, .2s linear;  
 }
 
 html{
-    overflow-x: hidden;
     scroll-behavior: smooth;    
-    scroll-padding-top: 20rem;    
+    scroll-padding-top: 20rem;  
+    max-width: 100%;    
 }
 
 body{
-    /* overflow: hidden; */
     background-color: #212738;
-    color: #fff;    
-    font-size: 14px;
+    color: #fff;       
+    font-size: 14px;    
 }
 
 header{
@@ -60,6 +59,7 @@ header .profile{
     align-items: center;
     margin-top: 60px;
     gap: 20rem;
+    overflow-x: hidden;
 }
 
 header .profile #title{
@@ -68,6 +68,7 @@ header .profile #title{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    overflow-x: hidden;
 }
 
 .profile #title .wrapper{
@@ -75,6 +76,7 @@ header .profile #title{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    overflow-x: hidden;
 }
 
 .socialIcons ul{
@@ -111,6 +113,7 @@ header .profile #title{
     width: 35px;
     bottom: 10px;
     background-color: #0f8be4;
+    overflow-x: hidden;
 }
 
 h1{
@@ -126,10 +129,12 @@ h2{
 
 .multiText{
     color: #0f8be4;
+    overflow-x: hidden;
 }
 
 .wrapper .cols img{
     width: 400px;
+    overflow-x: hidden;
 }
 
 .imgBox #splash{
@@ -140,6 +145,7 @@ h2{
     width: 10%;
     filter: saturate(150%);
     animation: animate2 2s linear infinite;
+    overflow-x: hidden;
 }
 
 .imgBox #splash1{
@@ -149,7 +155,8 @@ h2{
     transform: translate(-50%, -50%) rotate(-15deg);
     width: 10%;
     filter: saturate(150%);
-    animation: animate3 2s linear infinite;
+    animation: animate3 2s linear infinite;    
+    overflow-x: hidden; 
 }
 
 .imgBox #splash2{
@@ -160,7 +167,8 @@ h2{
     width: 10%;
     filter: saturate(150%);
     animation: animate 5s;
-    opacity: 0;
+    opacity: 0;    
+    overflow-x: hidden; 
 }
 
 @keyframes animate{
@@ -199,7 +207,8 @@ header .profile .btn{
     background-color: #0f8be4;
     border: 0;
     color: #212738;
-    font-size: 14px;    
+    font-size: 14px;
+    font-weight: 600;    
     cursor: pointer;
     text-decoration: none;
 }
@@ -216,6 +225,7 @@ header .profile .btn #cvBtn{
     height: 400px;
     animation: spin 12s ease-in-out infinite alternate;
     position: relative;
+    overflow-x: hidden;
 }
 
 .shape{
@@ -310,6 +320,7 @@ h4{
     body{
         width: 315px;
         margin: auto;
+        overflow-x: hidden;
     }
 
     .menu{
@@ -322,10 +333,12 @@ h4{
         border-radius: 20px;
         backdrop-filter: blur(20px);    
         padding: 10px 20px;
+        overflow-x: hidden;
     }
 
     #title h1{
         font-size: 36px;
+        overflow-x: hidden;
     }
 
     #title h2{
@@ -341,33 +354,37 @@ h4{
     }
 
     .spin-container{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
+        overflow-x: hidden;
     }
 
     .imgBox #splash{
         position: absolute;
-        top: 95%;
-        left: 20%;
+        top: 90%;
+        left: 30%;
         transform: translate(-50%, -50%) rotate(15deg);
         width: 40%;
         filter: saturate(150%);
         animation: animate2 2s linear infinite;
+        overflow-x: hidden;
     }
     
     .imgBox #splash1{
         position: absolute;
         top: 40%;
-        left: 85%;
+        left: 70%;
         transform: translate(-50%, -50%) rotate(-15deg);
         width: 35%;
         filter: saturate(150%);
         animation: animate3 2s linear infinite;
+        overflow-x: hidden;
     }
     
     .imgBox #splash2{
         animation: animate 5s;
         opacity: 0;
+        overflow-x: hidden;
     }
 
     

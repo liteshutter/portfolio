@@ -1,4 +1,3 @@
-
 section .about{
     display: flex;
     flex-direction: column;
@@ -54,6 +53,12 @@ section .about .boxes .info{
         align-items: center;
     }
 
+    section .about .boxes{
+        display: flex;
+        margin: 0;
+        gap: 20px;
+    }
+
     .about .boxes, .info p{
         display: flex;
         flex-direction: column;
@@ -64,7 +69,7 @@ section .about .boxes .info{
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        padding: 30px 120px;
+        padding: 30px 45px;
         background-color: #173b6d;
         border-radius: 20px;
     }

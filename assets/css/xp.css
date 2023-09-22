@@ -69,8 +69,8 @@ section .xp .skills .frontEnd img, section .xp .skills .backEnd img{
         flex-direction: column;
         align-items: center;
     }
-    section .xp .skills .frontEnd, section .xp .skills .backEnd{
-        padding: 20px 40px;
+    section .xp .skills .frontEnd, section .xp .skills .backEnd{        
+        padding: 30px 45px;
     }
 
     .skills .boxes{
