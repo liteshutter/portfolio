@@ -27,11 +27,11 @@
         <!-- <link rel="icon" href="./assets/img/Logo/favicon.png" type="image/png"> -->
     
         <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="./assets/css/aboutStyle.css">
-        <link rel="stylesheet" href="./assets/css/xpStyle.css">
-        <link rel="stylesheet" href="./assets/css/servicesStyle.css">
-        <link rel="stylesheet" href="./assets/css/projectStyle.css">
-        <link rel="stylesheet" href="./assets/css/contactstyle.css">
+        <link rel="stylesheet" href="./assets/css/about.css">
+        <link rel="stylesheet" href="./assets/css/xp.css">
+        <link rel="stylesheet" href="./assets/css/services.css">
+        <link rel="stylesheet" href="./assets/css/project.css">
+        <link rel="stylesheet" href="./assets/css/contacts.css">
     
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,13 +40,13 @@
     <body>
         <header>
             <div class="profile">
-                <div class="socialIcons">
+                <!-- <div class="socialIcons">
                     <ul>
                         <li><a href="#"></a><img src="./assets/img/Instagram_48px.png" alt=""></li>
                         <li><a href="#"></a><img src="./assets/img/linkedin_48px.png" alt=""></li>
                         <li><a href="#"></a><img src="./assets/img/YouTube_48px.png" alt=""></li>
                     </ul>
-                </div>
+                </div> -->
                 <div id="title">
                     <h1>Hello</h1>
                     <div class="wrapper">
@@ -68,12 +68,12 @@
                         <a href="" class="bTn" id="cvBtn">Download CV</a>
                     </div>
                 </div>
-                <div class="web">
+                <!-- <div class="web">
                     <ul>
                         <li><a href="#"><img src="./assets/img/Logo/liteshutter.jpg" alt=""></a></li>
                         <li><a href="#"><img src="./assets/img/Logo/code_creator.png" alt=""></a></li>
                     </ul>
-                </div>
+                </div> -->
             </div>
             <div class="info">                    
                 <div id="iContainer">
@@ -101,26 +101,26 @@
             <section>
                 <div class="about" id="about">
                     <h2>About Me</h2>
-                    <div class="container">
+                    <div class="boxes">
                         <div class="content">
-                            <div class="info">
+                            <div class="box">
                                 <img src="./assets/img/gold_medal_64px.png" alt="">
                                 <h4>Experience</h4>
-                                <p>Over 3 Years of Experience</p>
+                                <p>3 Years</p>
                             </div>
                             <!-- <div class="info">
                                 <img src="./assets/img/member_64px.png" alt="">
                                 <h4>Clients</h4>
                                 <p>10+ Clients</p>
                             </div> -->
-                            <div class="info">
+                            <div class="box">
                                 <img src="./assets/img/view_quilt_64px.png" alt="">
                                 <h4>Projects</h4>
-                                <p>2 Projects</p>
+                                <p>6 Projects</p>
                             </div>
                         </div>
                         <div class="content">
-                            <div class="infO">
+                            <div class="info">
                                 <p>
                                     I am a developer, designer, and photographer. I have a passion for creating beautiful and functional things, and I use my skills in all three areas to bring my ideas to life.
                                 </p>
@@ -145,8 +145,8 @@
                     <div class="skills">
                         <div class="frontEnd">
                             <h3>Front-End Development</h3>
-                            <div class="verified">
-                                <div class="verContent">
+                            <div class="boxes">
+                                <div class="box">
                                     <div class="lang">                                                                    
                                         <img src="./assets/img/verified.png" alt="">                                
                                         <div class="list">
@@ -162,7 +162,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="verContent">                                
+                                <div class="box">                                
                                     <div class="lang">                                                                    
                                         <img src="./assets/img/verified.png" alt="">                                
                                         <div class="list">
@@ -182,8 +182,8 @@
                         </div>
                         <div class="backEnd">
                             <h3>Back-End Development</h3>
-                            <div class="verified">
-                                <div class="verContent">
+                            <div class="boxes">
+                                <div class="box">
                                     <div class="lang">                                                                    
                                         <img src="./assets/img/verified.png" alt="">                                
                                         <div class="list">
@@ -199,7 +199,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="verContent">                                
+                                <div class="box">                                
                                     <div class="lang">                                                                    
                                         <img src="./assets/img/verified.png" alt="">                                
                                         <div class="list">
@@ -219,10 +219,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="servicesGroup" id="services">
+                <div class="services" id="services">
                     <h2>My Services</h2>
-                    <div class="services">
-                        <div class="servicesBox">
+                    <div class="boxes">
+                        <div class="box">
                             <h3>UI/UX Design</h3>
                             <ul>
                                 <li>User research</li>
@@ -232,7 +232,7 @@
                                 <li>Usability testing</li>
                             </ul>
                         </div>
-                        <div class="servicesBox">
+                        <div class="box">
                             <h3>Web Development</h3>
                             <ul>
                                 <li>Website design</li>
@@ -243,7 +243,7 @@
                                 <li>Web maintenance</li>
                             </ul>
                         </div>
-                        <div class="servicesBox">
+                        <div class="box">
                             <h3>Photography</h3>
                             <ul>
                                 <li>Portrait photography</li>
@@ -257,7 +257,30 @@
                         </div>
                     </div>
                 </div>
-                <div class="projects" id="projects">
+                <div class="project" id="project">
+                    <h2>My Projects</h2>
+                    <div class="boxes">
+                        <div class="box">
+                            <h3>Liteshutter Website</h3>
+                            <a href="https://www.figma.com/file/FsNewBoknkTvpUvbcNdiUJ/Untitled?type=design&node-id=2%3A3&mode=dev">
+                                <img src="./assets/img/liteshutter.PNG" alt="" width="200px">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <h3>Liteshutter Website</h3>
+                            <a href="https://www.figma.com/file/FsNewBoknkTvpUvbcNdiUJ/Untitled?type=design&node-id=2%3A3&mode=dev">
+                                <img src="./assets/img/liteshutter.PNG" alt="" width="200px">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <h3>Liteshutter Website</h3>
+                            <a href="https://www.figma.com/file/FsNewBoknkTvpUvbcNdiUJ/Untitled?type=design&node-id=2%3A3&mode=dev">
+                                <img src="./assets/img/liteshutter.PNG" alt="" width="200px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="projects" id="projects">
                     <h2>On-going Projectos</h2>
                     <div class="proboxes">
                         <div class="boxes">
@@ -277,17 +300,21 @@
                                     liteshutter Website
                                 </p>
                             </div>
-                            <div class="box"></div>
+                            <div class="box">
+                                <p id="pa">
+                                    <a href="https://www.figma.com/file/FsNewBoknkTvpUvbcNdiUJ/Untitled?type=design&node-id=2%3A3&mode=dev">
+                                        <img src="./assets/img/codecreator.PNG" alt="">
+                                    </a>
+                                    Code Creator Web Design
+                                </p>
+                            </div>
                         </div>
                         <div class="boxes">
-                            <div class="box"></div>
-                            <div class="box"></div>
-                            <div class="box"></div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="contact" id="contact">
-                    <h2>Contact-me</h2>
+                    <h2>Contact me</h2>
                     <div class="contactBoxes">
                         <div class="boxes">
                             <div class="box">
