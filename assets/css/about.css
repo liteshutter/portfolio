@@ -72,5 +72,6 @@ section .about .boxes .info{
         padding: 30px 45px;
         background-color: #173b6d;
         border-radius: 20px;
+        width: 25rem;
     }
 }

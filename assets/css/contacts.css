@@ -1,72 +1,82 @@
 .contact{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 5rem;
+    margin-top: 5rem;
 }
 
-.contactBoxes{
-    display: flex;
-    margin-top: 50px;
-    gap: 20px;
+.contact .contactBoxes{
+    display: grid;
+    margin: 3rem 5.625rem 0 5.625rem ;
+    gap: 20px;    
+    grid-template-areas:'box1 box3 box3'
+                        'box2 box3 box3';
 }
 
-.contactBoxes .boxes{
+.contactBoxes #box1,
+.contactBoxes #box2,    
+.contactBoxes a{    
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
-
-.contactBoxes .boxes .box, a{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-decoration: 0;
+    justify-content: center;
     color: aliceblue;
+    text-decoration: 0;
+    gap: 5px;
 }
 
-.contactBoxes .boxes .box{
-    display: flex;
+.contactBoxes #box1{
+    grid-area: box1;
     background-color: #173b6d;
-    padding: 30px 85px;
     border-radius: 20px;
+    padding: 1rem 3rem;
 }
 
-.contactBoxes .boxes .box:hover{
+.contactBoxes #box2{
+    grid-area: box2;
+    background-color: #173b6d;
+    border-radius: 20px;
+    padding: 1rem 5rem;
+}
+
+.contactBoxes #box3{
+    grid-area: box3;
+    background-color: #173b6d;
+    border-radius: 20px;
+    padding: 1rem 8rem;
+}
+
+.contactBoxes #box1:hover,
+.contactBoxes #box2:hover{
     background-color: #0d1f39;
     transition: 1s;
 }
 
 form{
-    background-color: #173b6d;
-    padding: 40px;
-    border-radius: 20px;
+    display: grid;
+    gap: 10px;    
+    margin: 1.5rem 0 0;
 }
 
-form #frm{
-    margin-top: 10px;
-    padding: 20px;
-    width: 16.48rem;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid #ffffff;
-    background: none;
-    font-size: 16px;
-    color: #fff;
+input, textarea{
+    width: 43rem;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    border: 0;
+    background-color: transparent;
+    border: 1px solid #798391;
+    /* resize: none; */
+    color: #798391;
 }
 
-form #frmm{
-    margin-top: 10px;
-    padding: 10px;
-    /* width: 50rem; */
-    outline: none;
-    border: none;
-    border-bottom: 1px solid #ffffff;
-    background: none;
-    font-size: 16px;
-    color: #fff;
+textarea{
+    height: 10rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #btn{
@@ -79,43 +89,59 @@ form #frmm{
     font-weight: 600;
     cursor: pointer;
     text-decoration: none;
-    margin-top: 2rem;
+    margin: 0 0 1.5rem;
 }
 
 @media (max-width:450px) {
-    .contact{
+    .contact .contactBoxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #173b6d;
+        padding: 20px 0 0;
+        max-width: 27rem;
+    }
+    .contactBoxes #box1, .contactBoxes #box2{
+        border: 1px solid #798391;
+        width: 25rem;
+    }
+
+    input, textarea{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25rem;
+    }
+
+    form{
+        width: 27rem;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .contact .contactBoxes{
+    .center{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .contact .contactBoxes .boxes .box{
-        width: 250px;
-    }
-
-    .contact .contactBoxes .boxes form{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact .contactBoxes .boxes form #frm, #frmm{
-        /* width: 250px; */
-    }
-
-    .contactBoxes .boxes .box{
-        padding: 30px 45px;
+    .contactBoxes #box1{
+        grid-area: box1;
         border-radius: 20px;
+        padding: 0;
     }
-
-    form{
-        background-color: #173b6d;
-        padding: 30px 55px;
+    
+    .contactBoxes #box2{
+        grid-area: box2;
         border-radius: 20px;
+        padding: 0;
     }
-
+    
+    .contactBoxes #box3{
+        grid-area: box3;
+        border-radius: 20px;
+        padding: 0;
+    }
 }
