@@ -1,0 +1,68 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.project h2{
+    margin: 0 0 50px;
+}
+
+.project .boxes{
+    display: flex;    
+    gap: 20px;
+    margin: 0 400px;  
+}
+
+.project .boxes .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 53.3px;    
+    border-radius: 20px;
+    background-color: #173b6d;
+}
+
+.project .boxes .box:hover{
+    background-color: #0d1f39;
+    transition: 1s;
+}
+
+.project .boxes .box img{
+    width: 250px;
+    margin-top: 20px;
+}
+
+@media (max-width:450px) {
+    .services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .boxes .box{
+        display: flex;
+        align-items: center;
+    }
+
+    .project .boxes .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 45px;    
+        border-radius: 20px;
+        background-color: #173b6d;
+        width: 25rem;
+    }
+
+}
