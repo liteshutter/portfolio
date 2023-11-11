@@ -144,6 +144,7 @@ h6{
 }
 
 /* menu buttons start */
+
 .bg{
     display: flex;
     flex-direction: row;
@@ -453,7 +454,7 @@ footer .cr{
 
 @media (max-width:450px) {
 
-   .bg{
+    .bg{
         position: fixed;
         bottom: 0;
         width: 110%;
@@ -468,8 +469,9 @@ footer .cr{
 
     .spin-container{
         width: 18rem;
-        height: 18rem;
+        height: 15rem;
     }
+
 
     .imgBox #splash{
         position: absolute;
@@ -499,11 +501,11 @@ footer .cr{
         position: absolute;
         top: 120%;
         left: 20%;
-        transform: translate(-50%, -50%) rotate(60deg);
-        width: 10%;
+        transform: translate(-50%, -50%) rotate(30deg);
+        width: 20%;
         filter: saturate(150%);
-        animation: animate 5s;
-        opacity: 0;    
+        animation: animate 8s;
+        /* opacity: 0;     */
         overflow-x: hidden; 
     }
     
