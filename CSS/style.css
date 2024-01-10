@@ -387,7 +387,7 @@ header, main{
 
 #Projects a{
     color: white;
-    background-color: #0f8be4;
+    background: linear-gradient( to left, #052fb0, #71b5e6);
     padding: 5px 10px;
     border-radius: 5px 10px;
     text-decoration: 0;
